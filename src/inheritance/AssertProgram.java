@@ -3,8 +3,7 @@ package inheritance;
 public class AssertProgram {
 	static void add(int a, int b)
 	{
-		assert a==100
-				;//if given value for a=100, then only perform addition if not then will get assertion error
+		assert a==100;//if given value for a=100, then only perform addition if not then will get assertion error
 		int sum=a+b;
 		System.out.println(sum);
 	}
